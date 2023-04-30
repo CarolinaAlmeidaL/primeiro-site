@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'android';
+    src: url(good\ times\ rg.otf) format(opentype);
+    font-weight: normal;
+}
+
+:root{
+    --fonte-padrao: 'Playfair Display', serif;
+    --fonte-destaque:'android';
+    
+}
+
+
+
+body{
+    background-color: #212529;
+    color: #fff; 
+    font-family: var(--fonte-padrao);
+}
+footer {
+    background-color: #dee2e6;
+    margin-top: 0%;
+    text-align: center;
+    color: black;
+
+}
+.titulo{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    background: none;
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
+
+    
+    
+    
+
+
+}
+#seg{
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    font-family: Stencil Std, fantasy;
+    border-radius: 15px;
+
+    
+
+
+}
+.a{
+    color: #dee2e6;
+}
+
